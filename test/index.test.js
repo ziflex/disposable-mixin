@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-expressions, import/no-extraneous-dependencies */
+/* eslint-disable global-require, no-unused-expressions, import/no-extraneous-dependencies */
 import { expect } from 'chai';
 import sinon from 'sinon';
 import _ from 'lodash';
@@ -337,4 +337,10 @@ describe('Helpers', () => {
             });
         });
     });
+});
+
+it('should be exported as "commonjs" module', () => {
+    const Mixin = require('../src/index');
+
+    expect(typeof Mixin === 'function').to.be.true;
 });

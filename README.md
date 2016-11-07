@@ -1,8 +1,8 @@
 # disposable-mixin
 
-> Explicit releasing resources
+> Explicitly releasing resources
 
-Mixin that brings 'IDisposable' implementation to your types.
+Mixin that brings 'Disposable' implementation to your types.
 
 [![npm version](https://badge.fury.io/js/disposable-mixin.svg)](https://www.npmjs.com/package/disposable-mixin)
 [![Build Status](https://secure.travis-ci.org/ziflex/disposable-mixin.svg?branch=master)](http://travis-ci.org/ziflex/disposable-mixin)

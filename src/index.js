@@ -128,4 +128,4 @@ Mixin.isDisposed = (target) => {
 Mixin.disposeResources = disposeResources;
 Mixin.isDisposable = isDisposable;
 
-export default Mixin;
+module.exports = Mixin;
