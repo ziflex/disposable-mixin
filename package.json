@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Mixin that brings 'Disposable' implementation to your types",
   "main": "lib/index.js",
+  "types": "index.d.ts",
   "directories": {
     "test": "test"
   },
